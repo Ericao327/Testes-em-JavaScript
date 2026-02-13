@@ -1,22 +1,11 @@
-# Learning Basic JavaScript Variables
+# Variáveis Básicas em JavaScript
 
-This README contains notes about learning basic JavaScript variables based on the Alura Node.js course. It covers:
+Neste módulo do curso de Node.js da Alura, vamos explorar as variáveis básicas em JavaScript. As variáveis são fundamentais na programação, pois são usadas para armazenar dados que podem ser utilizados e manipulados durante a execução de um programa.
 
-1. **Variable Declaration**: JavaScript allows the declaration of variables using three keywords: `var`, `let`, and `const`.
-   - `var`: Traditionally used for variable declaration, but scope can be confusing due to function hoisting.
-   - `let`: Introduced in ES6, allows block-level scope.
-   - `const`: Also block-scoped, but the variable must be assigned at the time of declaration and cannot be reassigned.
+## Tipos de Variáveis
+JavaScript possui três formas principais de declarar variáveis:
 
-2. **Data Types**: Basic data types in JavaScript include:
-   - `String`
-   - `Number`
-   - `Boolean`
-   - `Null`
-   - `Undefined`
-   - `Object`
+1. **var**: É a forma mais antiga e tem escopo de função. Usar `var` não é recomendado nas versões mais recentes do JavaScript.
 
-3. **Variable Scope**: Understanding the scope of variables is crucial to avoid reference errors. Scope can be divided into global scope and local scope.
-
-4. **Best Practices**: Naming conventions and understanding when to use each variable type play a significant role in writing clear and maintainable code.
-
-Feel free to add more detailed notes as you progress through the course!
+   ```javascript
+   var nome = 'João';
