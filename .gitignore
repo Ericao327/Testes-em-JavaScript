@@ -1,0 +1,26 @@
+# Arquivo .gitignore para projetos JavaScript
+
+# Ignorar a pasta node_modules, onde são instaladas as dependências
+node_modules/
+
+# Ignorar arquivos e pastas de build
+/dist/
+/build/
+
+# Ignorar arquivos de configuração da IDE
+.vscode/
+*.sublime-* 
+.idea/
+
+# Ignorar arquivos de ambiente
+.env
+.env.local
+.env.*.local
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar outros arquivos temporários
+*.tmp
+*.temp
+*.cache
